@@ -5,7 +5,9 @@ const Logo = ({title, subtitle, genre}) => {
         <div className="logo">
             <h3>{genre}</h3>
             <h1>{title}</h1>
-            <h2>{subtitle}</h2>
+            <div className="container-cutout">
+                <h2>{subtitle}</h2>
+            </div>
         </div>
     );
 }

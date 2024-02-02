@@ -19,10 +19,8 @@ h1 {
 
 h2 {
     color: var(--logoDark);
-    background-color: var(--logoBright);
     font-size: 50px;   
     letter-spacing: 30px;
-
     height: 55px;
     display: flex;
     justify-content: center;
@@ -32,5 +30,9 @@ h2 {
 .logo {
     margin-top: 50px;
     font-family: "Black Ops One";
+}
+
+.container-cutout {
+    background-color: red;
 }
 

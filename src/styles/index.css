@@ -5,9 +5,11 @@
 }
 
 :root {
-  --logoBright: rgb(239, 236, 215, 0.8);
-  --logoDark: rgb(32, 35, 53);
-  --glowColor: #fff; 
+  --logoBright: rgb(147, 0, 0);
+  /* --logoBright: rgb(239, 236, 215, 0.8); */
+  --logoDark: rgba(32, 35, 53, 0.866);
+  --glowColor: #fff;
+  --rot: red;
 }
 
 body {
