@@ -37,16 +37,16 @@ header {
 }
 
 .elevator {
-transform: translateZ(-10px) scale(2);
+transform: translateZ(-11px) scale(2.0);
 }
 
 .character {
-  transform: translateZ(-2px) scale(1.5);
+  transform: translateZ(-5px) scale(1.6);
   z-index: 99
 }
 
 article {
-  margin-top: 200px;
+  margin-top: 350px;
   background: none;
   padding: 20px;
   
@@ -54,4 +54,5 @@ article {
 
 p {
   background: none;
+  font-size: 25px;
 }
