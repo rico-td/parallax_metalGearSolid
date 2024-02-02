@@ -14,7 +14,9 @@ p {
 }
 
 .wrapper-logo {
-  align-self: flex-end;
+  position: absolute;
+  top: 50px;
+  left: 100px; 
 }
 
 .wrapper-parallax {
@@ -31,7 +33,7 @@ header {
   align-items: center;
   height: 100%;
   transform-style: preserve-3d;
-  z-index: -1;
+ 
 }
 
 .elevator {
@@ -40,4 +42,16 @@ transform: translateZ(-10px) scale(2);
 
 .character {
   transform: translateZ(-2px) scale(1.5);
+  z-index: 99
+}
+
+article {
+  margin-top: 200px;
+  background: none;
+  padding: 20px;
+  
+}
+
+p {
+  background: none;
 }

@@ -5,12 +5,13 @@
 }
 
 :root {
-  --dark: rgb(19, 19, 20);
+  --dark: rgb(19, 22, 24);
   --color2: black; 
 }
 
 body {
   background-color: black;
+  font-family: "Anton";
 
 }
 
