@@ -38,7 +38,7 @@ header {
 }
 
 .elevator {
-transform: translateZ(-11px) scale(2.0);
+transform: translateZ(-10px) scale(2.0);
 }
 
 .character {
