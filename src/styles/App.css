@@ -41,18 +41,24 @@ transform: translateZ(-11px) scale(2.0);
 }
 
 .character {
-  transform: translateZ(-5px) scale(1.6);
+  transform: translateZ(-3.5px) scale(1.6);
   z-index: 99
 }
 
 article {
-  margin-top: 350px;
+  margin-top: 320px;
   background: none;
   padding: 20px;
   
 }
 
+article h3 {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
 p {
   background: none;
   font-size: 25px;
+  letter-spacing: 2px;
 }
