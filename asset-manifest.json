@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my_react_app_mgs1/static/css/main.1675e71d.css",
+    "main.css": "/my_react_app_mgs1/static/css/main.81f51d86.css",
     "main.js": "/my_react_app_mgs1/static/js/main.ce34d02d.js",
     "static/js/592.8db8c982.chunk.js": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js",
     "static/media/keys-of-moon-immense.mp3": "/my_react_app_mgs1/static/media/keys-of-moon-immense.87d54bc921ad3c88771b.mp3",
     "static/media/background.png": "/my_react_app_mgs1/static/media/background.44b4a039cec900a6cac1.png",
     "static/media/character2.png": "/my_react_app_mgs1/static/media/character2.f052dd9757514e70d0a3.png",
     "index.html": "/my_react_app_mgs1/index.html",
-    "main.1675e71d.css.map": "/my_react_app_mgs1/static/css/main.1675e71d.css.map",
+    "main.81f51d86.css.map": "/my_react_app_mgs1/static/css/main.81f51d86.css.map",
     "main.ce34d02d.js.map": "/my_react_app_mgs1/static/js/main.ce34d02d.js.map",
     "592.8db8c982.chunk.js.map": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1675e71d.css",
+    "static/css/main.81f51d86.css",
     "static/js/main.ce34d02d.js"
   ]
 }
