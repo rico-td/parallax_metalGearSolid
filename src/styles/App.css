@@ -70,8 +70,6 @@ article h3 {
 p {
   color: var(--logoBright);
   background: none;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 5px;
-
-  
 }
