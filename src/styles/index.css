@@ -5,14 +5,14 @@
 }
 
 :root {
-  --dark: rgb(19, 22, 24);
-  --color2: black; 
+  --logoBright: rgb(239, 236, 215, 0.8);
+  --logoDark: rgb(32, 35, 53);
+  --glowColor: #fff; 
 }
 
 body {
   background-color: black;
-  font-family: "Anton";
-
+  font-family: "Bebas Neue";
 }
 
 

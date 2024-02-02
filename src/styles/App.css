@@ -21,7 +21,7 @@ p {
 
 .wrapper-parallax {
   height: 100vh;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
   perspective: 10px;
 }
@@ -42,24 +42,36 @@ transform: translateZ(-10px) scale(2.0);
 }
 
 .character {
-  transform: translateZ(-3.5px) scale(1.6);
+  transform: translateZ(-3.5px) scale(1.5);
   z-index: 99
 }
 
 article {
-  margin-top: 320px;
-  background: none;
+  margin-top: 80px;
+  background: rgb(17, 17, 18);
   padding: 20px;
-  
+  box-shadow:
+  /* 0 10px 50px var(--glowColor), */
+  0 0 20px var(--dark),
+  0 0 40px var(--dark),
+  0 0 80px var(--dark),
+  0 0 110px var(--dark),  
+  0 0 180px var(--dark),  
+  0 0 250px var(--dark);  
 }
 
 article h3 {
+  font-family: "Black Ops One";
+  color: var(--logoBright);
   font-size: 50px;
   text-decoration: underline;
 }
 
 p {
+  color: var(--logoBright);
   background: none;
-  font-size: 25px;
-  letter-spacing: 2px;
+  font-size: 30px;
+  letter-spacing: 5px;
+
+  
 }
