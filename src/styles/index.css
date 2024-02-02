@@ -1,0 +1,17 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark: rgb(19, 19, 20);
+  --color2: black; 
+}
+
+body {
+  background-color: black;
+
+}
+
+

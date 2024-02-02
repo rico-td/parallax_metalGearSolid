@@ -1,0 +1,38 @@
+h3 {
+    font-family: "Black Ops One";
+    color: white;
+    font-size: 25px;
+    letter-spacing: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Black Ops One";
+    color: white;
+    font-size: 120px;
+    line-height: 95px;
+    letter-spacing: 5px;
+
+    display: flex;
+    justify-content: center;  
+}
+
+h2 {
+    font-family: "Black Ops One";
+    color: var(--dark);
+    background-color: white ;
+    font-size: 70px;   
+    letter-spacing: 30px;
+
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 150px;
+}
+
