@@ -7,9 +7,9 @@
 }
 
 :root {
-  /* --logoBright: rgb(147, 0, 0); */
-  --logoBright: rgb(239, 236, 215, 0.8);
-  --logoDark: rgba(32, 35, 53, 0.866);
+  /* --logoBright: rgb(118, 9, 9); */
+  --logoBright: rgb(238, 236, 224);
+  --logoDark: rgba(31, 33, 43, 0.866);
   --glowColor: #fff;
 }
 

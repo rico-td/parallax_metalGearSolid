@@ -2,17 +2,14 @@ h3 {
   color: var(--logoBright);
   font-size: 25px;
   letter-spacing: 10px;
-
   display: flex;
   justify-content: center;
 }
 
 h1 {
   color: var(--logoBright);
-  font-size: 120px;
-  line-height: 95px;
+  font-size: 100px;
   letter-spacing: 5px;
-
   display: flex;
   justify-content: center;
 }
@@ -20,15 +17,18 @@ h1 {
 h2 {
   color: var(--logoDark);
   background-color: var(--logoBright);
-  font-size: 50px;
-  letter-spacing: 30px;
-  height: 45px;
+  font-size: 30px;
+  letter-spacing: 20px;
+  min-height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .logo {
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Black Ops One";
+  line-height: 0.8;
 }

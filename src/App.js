@@ -1,9 +1,10 @@
 import "./styles/App.css";
+import "./styles/media.queries.css";
+import "./components/logo/Logo.Module.css";
 import Logo from "./components/logo/Logo.js";
 
 import ElevatorIMG from "./assets/img/background.png";
 import CharacterIMG from "./assets/img/character2.png";
-import Audio from "./assets/audio/keys-of-moon-immense.mp3";
 import Navbar from "./components/navbar/Navbar.js";
 
 function App() {
@@ -14,11 +15,13 @@ function App() {
         <header>
           {/* noch anschauen: Position des Logos richtig setzen, responsive! */}
           <div className="wrapper-logo">
-            <Logo
-              title="METAL GEAR"
-              subtitle="SOLID"
-              genre="TACTICAL ESPIONAGE ACTION"
-            />
+            <div className="containter3D">
+              <Logo
+                title="METAL GEAR"
+                subtitle="SOLID"
+                genre="TACTICAL ESPIONAGE ACTION"
+              />
+            </div>
           </div>
           <img className="elevator" src={ElevatorIMG} alt="elevator" />
           <img className="character" src={CharacterIMG} alt="solid snake" />
