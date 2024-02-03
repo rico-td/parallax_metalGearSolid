@@ -1,20 +1,19 @@
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 :root {
-  --logoBright: rgb(147, 0, 0);
-  /* --logoBright: rgb(239, 236, 215, 0.8); */
+  /* --logoBright: rgb(147, 0, 0); */
+  --logoBright: rgb(239, 236, 215, 0.8);
   --logoDark: rgba(32, 35, 53, 0.866);
   --glowColor: #fff;
-  --rot: red;
 }
 
 body {
   background-color: black;
   font-family: "Bebas Neue";
 }
-
-
