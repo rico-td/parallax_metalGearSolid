@@ -1,3 +1,4 @@
+/* -------------- PARALLAX 1 PICTURE ------------------------- */
 .elevator-bg,
 .character,
 .elevator {
@@ -52,8 +53,7 @@ header {
   transform: translateZ(-4px) scale(1.5);
 }
 
-/* TEXT PARALLAX CONTAINER 1 */
-
+/* -------------- PARALLAX 1 TEXT ------------------------- */
 article {
   margin-top: 80px;
   background: rgb(17, 17, 18);
@@ -79,3 +79,5 @@ p {
   padding: 20px;
   margin: 20px;
 }
+
+/* -------------- PARALLAX 1 TEXT ------------------------- */
