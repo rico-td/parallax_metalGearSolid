@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/my_react_app_mgs1/static/css/main.191f7016.css",
-    "main.js": "/my_react_app_mgs1/static/js/main.8cd0c20a.js",
+    "main.css": "/my_react_app_mgs1/static/css/main.9e91c4b8.css",
+    "main.js": "/my_react_app_mgs1/static/js/main.a3671d6f.js",
     "static/js/592.8db8c982.chunk.js": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js",
     "static/media/background.png": "/my_react_app_mgs1/static/media/background.f9863206cc7db3dc49ea.png",
     "static/media/character2.png": "/my_react_app_mgs1/static/media/character2.f052dd9757514e70d0a3.png",
     "static/media/elevator.png": "/my_react_app_mgs1/static/media/elevator.a09704c7f67b1dea53f6.png",
+    "static/media/raven.png": "/my_react_app_mgs1/static/media/raven.61077dfb129550ba4c06.png",
+    "static/media/ocelot.png": "/my_react_app_mgs1/static/media/ocelot.db643f21491333e82332.png",
+    "static/media/liquid.png": "/my_react_app_mgs1/static/media/liquid.1936c0cc897618f2d4f0.png",
+    "static/media/sniper.png": "/my_react_app_mgs1/static/media/sniper.259fa16f66b1812bc1b9.png",
+    "static/media/mantis.png": "/my_react_app_mgs1/static/media/mantis.145f2b7a2e6c9d85cf06.png",
+    "static/media/octopus.png": "/my_react_app_mgs1/static/media/octopus.cf63d409f10072ee2bcc.png",
     "index.html": "/my_react_app_mgs1/index.html",
-    "main.191f7016.css.map": "/my_react_app_mgs1/static/css/main.191f7016.css.map",
-    "main.8cd0c20a.js.map": "/my_react_app_mgs1/static/js/main.8cd0c20a.js.map",
+    "main.9e91c4b8.css.map": "/my_react_app_mgs1/static/css/main.9e91c4b8.css.map",
+    "main.a3671d6f.js.map": "/my_react_app_mgs1/static/js/main.a3671d6f.js.map",
     "592.8db8c982.chunk.js.map": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.191f7016.css",
-    "static/js/main.8cd0c20a.js"
+    "static/css/main.9e91c4b8.css",
+    "static/js/main.a3671d6f.js"
   ]
 }
