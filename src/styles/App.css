@@ -6,16 +6,20 @@
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  /* transform: translateY(-50px); */
 }
 
 .wrapper-logo {
-  border: 1px solid red;
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-container {
+  width: 100vw;
   height: 100vh;
   position: absolute;
 
-  transform: translateZ(-9px) scale(1.5);
+  transform: translateZ(-7px) scale(1.5);
   z-index: -1;
 }
 

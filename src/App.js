@@ -15,12 +15,14 @@ function App() {
       <div className="wrapper-parallax">
         <header>
           {/* noch anschauen: Position des Logos richtig setzen, responsive! */}
-          <div className="wrapper-logo">
-            <Logo
-              title="METAL GEAR"
-              subtitle="SOLID"
-              genre="TACTICAL ESPIONAGE ACTION"
-            />
+          <div className="align-container">
+            <div className="wrapper-logo">
+              <Logo
+                title="METAL GEAR"
+                subtitle="SOLID"
+                genre="TACTICAL ESPIONAGE ACTION"
+              />
+            </div>
           </div>
           <img
             className="elevator-bg"
