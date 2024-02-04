@@ -1,18 +1,12 @@
 import WalkingBorderBtn from "../buttons/WalkingBorderBtn/WalkingBorderBtn.js";
 import "./Navbar.Module.css";
 
-const Navbar = ({ text, source }) => {
+const Navbar = ({ text1, text2, text3, source }) => {
   return (
     <div className="navbar">
-      <div className="button-wrapper">
-        <WalkingBorderBtn source="http://www.google.de" text="About" />
-      </div>
-      <div className="button-wrapper">
-        <WalkingBorderBtn source="http://www.google.de" text="Artwork" />
-      </div>
-      <div className="button-wrapper">
-        <WalkingBorderBtn source="http://www.google.de" text="Contact" />
-      </div>
+      <WalkingBorderBtn source="" text={text1} />
+      <WalkingBorderBtn source="" text={text2} />
+      <WalkingBorderBtn source="" text={text3} />
     </div>
   );
 };

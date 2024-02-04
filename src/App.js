@@ -1,18 +1,30 @@
+// ------------ CSS ---------------------------------
 import "./styles/App.css";
 import "./styles/media.queries.css";
 import "./components/logo/Logo.Module.css";
-import Logo from "./components/logo/Logo.js";
 
+// ------------ IMG`s ---------------------------------
 import elevatorBg from "./assets/img/background.png";
 import elevator from "./assets/img/elevator.png";
 import character from "./assets/img/character2.png";
+import liquid from "./assets/img/foxhound gang/liquid.png";
+import mantis from "./assets/img/foxhound gang/mantis.png";
+import ocelot from "./assets/img/foxhound gang/ocelot.png";
+import octopus from "./assets/img/foxhound gang/octopus.png";
+import raven from "./assets/img/foxhound gang/raven.png";
+import sniper from "./assets/img/foxhound gang/sniper.png";
+
+// ------------ COMPONENTS ---------------------------------
+import Logo from "./components/logo/Logo.js";
 import Navbar from "./components/navbar/Navbar.js";
-import WalkingBorderBtn from "./components/buttons/WalkingBorderBtn/WalkingBorderBtn.js";
+import DatabaseResponse from "./utils/DatabaseResponse";
+import Profile from "./components/profile/Profile.js";
+// import Content from "./components/layout/content";
 
 function App() {
   return (
     <div className="app">
-      <Navbar source="/" text={"About"} className="navbar" />
+      <Navbar source1="/" text1={"About"} text2={"Artwork"} text3={"Contact"} />
       <div className="wrapper-parallax">
         <header>
           {/* noch anschauen: Position des Logos richtig setzen, responsive! */}
@@ -35,6 +47,21 @@ function App() {
         </header>
         <article>
           <h3>The Threat of FOXHOUND</h3>
+          <Navbar
+            text1={"Follow"}
+            text2={"following"}
+            text3={"posts"}
+            className="navbar-social-media"
+          />
+          <Profile className="follow-Btn" />
+          {/* <Content data={DatabaseResponse} /> */}
+
+          <img className="liquid" src={liquid} alt="elevator" />
+          <img className="mantis" src={mantis} alt="mantis" />
+          <img className="ocelot" src={ocelot} alt="ocelot" />
+          <img className="octopus" src={octopus} alt="octopus" />
+          <img className="raven" src={raven} alt="raven" />
+          <img className="sniper" src={sniper} alt="sniper" />
 
           <p>
             In the immersive world of Metal Gear Solid 1, the threat of FOXHOUND
@@ -44,7 +71,6 @@ function App() {
             heart of the island, he uncovers a web of deceit and intrigue, with
             FOXHOUND at its center.
           </p>
-          <WalkingBorderBtn source="https://www.google.com" text="About" />
         </article>
       </div>
     </div>

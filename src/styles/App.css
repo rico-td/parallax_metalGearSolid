@@ -55,7 +55,7 @@ header {
 
 /* -------------- PARALLAX 1 TEXT ------------------------- */
 article {
-  margin-top: 80px;
+  margin-top: 90px;
   background: rgb(17, 17, 18);
   padding: 20px;
   box-shadow: 
@@ -66,18 +66,24 @@ article {
 
 article h3 {
   font-family: "Black Ops One";
-  color: var(--logoBright);
+  color: var(--aczent);
   font-size: 50px;
-  text-decoration: underline;
+  text-align: center;
 }
 
 p {
-  color: var(--logoBright);
+  color: var(--aczent);
   background-color: var(--dark);
   font-size: 20px;
   letter-spacing: 5px;
   padding: 20px;
   margin: 20px;
+  text-align: center;
+}
+
+.follow-Btn {
+  position: absolute;
+  top: 50px;
 }
 
 /* -------------- PARALLAX 1 TEXT ------------------------- */
