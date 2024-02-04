@@ -1,4 +1,4 @@
-@media only screen and (max-width: 770px) {
+/* @media only screen and (max-width: 770px) {
   .wrapper-logo {
     perspective: 450px;
     transform: translateZ(-9px) scale(1.75);
@@ -7,14 +7,10 @@
     margin-top: 100px;
     margin-left: 5px;
   }
+} */
 
+@media only screen and (max-width: 992px) {
   .containter3D h1 {
-    font-size: 80px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .containter3D h1 {
-    font-size: 60px;
+    font-size: 100px;
   }
 }
