@@ -1,27 +1,21 @@
 h3 {
-  color: var(--logoRed);
+  color: var(--logo);
   font-size: 0.8rem;
   letter-spacing: 7px;
-  text-shadow: -0.5px -0.5x 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
-    0.5px 0.5px 0 #000;
 }
 
 h1 {
-  color: var(--logoRed);
+  color: var(--logo);
   font-size: 14vw;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 
 h2 {
-  color: var(--logoBright);
-  background-color: var(--logoRed);
+  color: var(--aczent);
+  background-color: var(--logo);
   font-size: 3vw;
   letter-spacing: 20px;
   padding: 1px 40%;
-  box-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+
   /* display: flex;
   justify-content: center;
   align-items: center; */

@@ -7,6 +7,7 @@ import elevatorBg from "./assets/img/background.png";
 import elevator from "./assets/img/elevator.png";
 import character from "./assets/img/character2.png";
 import Navbar from "./components/navbar/Navbar.js";
+import WalkingBorderBtn from "./components/buttons/WalkingBorderBtn/WalkingBorderBtn.js";
 
 function App() {
   return (
@@ -34,19 +35,16 @@ function App() {
         </header>
         <article>
           <h3>The Threat of FOXHOUND</h3>
+
           <p>
             In the immersive world of Metal Gear Solid 1, the threat of FOXHOUND
             looms large. Solid Snake, a legendary soldier, is called back into
             action by the enigmatic Colonel Campbell to investigate suspicious
             activities on Shadow Moses Island. As Snake delves deeper into the
             heart of the island, he uncovers a web of deceit and intrigue, with
-            FOXHOUND at its center. The threat of a nuclear catastrophe hangs
-            heavy in the air, driving Snake to confront his past and question
-            his allegiances. Amidst the shadowy corridors and hidden dangers of
-            Shadow Moses, Snake must navigate a treacherous landscape of
-            betrayal and danger to uncover the truth and save the world from
-            impending doom.
+            FOXHOUND at its center.
           </p>
+          <WalkingBorderBtn source="https://www.google.com" text="About" />
         </article>
       </div>
     </div>

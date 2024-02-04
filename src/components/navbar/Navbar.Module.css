@@ -1,3 +1,7 @@
+.button-wrapper {
+  position: relative;
+}
+
 .navbar {
   position: sticky;
   display: flex;
@@ -5,4 +9,5 @@
   align-items: center;
   height: 60px;
   background: none;
+  background-color: var(--navbar);
 }

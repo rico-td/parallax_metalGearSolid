@@ -7,13 +7,22 @@
 }
 
 :root {
-  --logoRed: rgb(118, 9, 9);
-  --logoBright: rgb(227, 223, 200);
-  --dark: rgba(31, 33, 43, 0.866);
+  --logo: rgba(0, 0, 0, 0.833);
+  --logoContrast: rgb(227, 223, 200);
+  --aczent: lightblue;
+  --navbar: black;
   --glowColor: #fff;
 }
 
 body {
-  background-color: rgb(0, 0, 0);
   font-family: "Black Ops One", sans-serif;
 }
+
+/* ------------------ BACKUPS ------------------ */
+
+/* :root {
+  --logoRed: rgb(118, 9, 9);
+  --logoBright: rgb(227, 223, 200);
+  --dark: rgb(0, 0, 0);
+  --glowColor: #fff;
+} */

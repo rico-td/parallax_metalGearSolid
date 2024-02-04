@@ -1,0 +1,79 @@
+:root {
+  --border-color: lightblue;
+}
+
+a {
+  display: flex;
+  color: lightblue;
+  background-color: lightblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px 10px;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+}
+
+a span {
+  background-color: var(--aczent);
+  display: block;
+  transition: 0.5s;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  transition-delay: 0s;
+}
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  transition-delay: 0.2s;
+}
+a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  transition-delay: 0.4s;
+}
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  transition-delay: 0.6s;
+}
+
+a span:nth-child(1),
+a span:nth-child(3) {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+}
+
+a span:nth-child(2),
+a span:nth-child(4) {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+}
+
+a:hover span:nth-child(1) {
+  top: 0;
+  left: 0;
+}
+a:hover span:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+a:hover span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+}
+a:hover span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+}
