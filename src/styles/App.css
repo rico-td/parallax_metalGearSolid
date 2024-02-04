@@ -67,17 +67,17 @@ article {
 article h3 {
   font-family: "Black Ops One";
   color: var(--aczent);
-  font-size: 50px;
+  font-size: 20px;
   text-align: center;
 }
 
 p {
   color: var(--aczent);
   background-color: var(--dark);
-  font-size: 20px;
+  font-size: 10px;
   letter-spacing: 5px;
-  padding: 20px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -86,4 +86,29 @@ p {
   top: 50px;
 }
 
-/* -------------- PARALLAX 1 TEXT ------------------------- */
+/* -------------- IMG FOXHOUND ------------------------- */
+
+.liquid {
+  object-fit: cover;
+}
+.ocelot {
+  object-fit: cover;
+}
+.sniper {
+  object-fit: cover;
+}
+.octopus {
+  object-fit: cover;
+}
+.raven {
+  object-fit: cover;
+}
+.mantis {
+  object-fit: cover;
+}
+
+.grid-container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

@@ -55,14 +55,14 @@ function App() {
           />
           <Profile className="follow-Btn" />
           {/* <Content data={DatabaseResponse} /> */}
-
-          <img className="liquid" src={liquid} alt="elevator" />
-          <img className="mantis" src={mantis} alt="mantis" />
-          <img className="ocelot" src={ocelot} alt="ocelot" />
-          <img className="octopus" src={octopus} alt="octopus" />
-          <img className="raven" src={raven} alt="raven" />
-          <img className="sniper" src={sniper} alt="sniper" />
-
+          <div className="grid-container">
+            <img className="liquid" src={liquid} alt="elevator" />
+            <img className="mantis" src={mantis} alt="mantis" />
+            <img className="ocelot" src={ocelot} alt="ocelot" />
+            <img className="octopus" src={octopus} alt="octopus" />
+            <img className="raven" src={raven} alt="raven" />
+            <img className="sniper" src={sniper} alt="sniper" />
+          </div>
           <p>
             In the immersive world of Metal Gear Solid 1, the threat of FOXHOUND
             looms large. Solid Snake, a legendary soldier, is called back into
