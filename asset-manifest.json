@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my_react_app_mgs1/static/css/main.059d919d.css",
+    "main.css": "/my_react_app_mgs1/static/css/main.2ffcd5bc.css",
     "main.js": "/my_react_app_mgs1/static/js/main.e52f8076.js",
     "static/js/592.8db8c982.chunk.js": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js",
     "static/media/background.png": "/my_react_app_mgs1/static/media/background.f9863206cc7db3dc49ea.png",
@@ -13,12 +13,12 @@
     "static/media/octopus.png": "/my_react_app_mgs1/static/media/octopus.7e6c90d7f1a82f0d9b35.png",
     "static/media/mantis.png": "/my_react_app_mgs1/static/media/mantis.598f98ad8c1c9f3f19ed.png",
     "index.html": "/my_react_app_mgs1/index.html",
-    "main.059d919d.css.map": "/my_react_app_mgs1/static/css/main.059d919d.css.map",
+    "main.2ffcd5bc.css.map": "/my_react_app_mgs1/static/css/main.2ffcd5bc.css.map",
     "main.e52f8076.js.map": "/my_react_app_mgs1/static/js/main.e52f8076.js.map",
     "592.8db8c982.chunk.js.map": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.059d919d.css",
+    "static/css/main.2ffcd5bc.css",
     "static/js/main.e52f8076.js"
   ]
 }
