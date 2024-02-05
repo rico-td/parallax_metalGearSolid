@@ -46,7 +46,7 @@ header {
 }
 
 .elevator {
-  transform: translateZ(-3.5px) scale(1.5);
+  transform: translateZ(-5px) scale(1.5);
 }
 
 .character {
@@ -55,7 +55,6 @@ header {
 
 /* -------------- PARALLAX 1 TEXT ------------------------- */
 article {
-  margin-top: 90px;
   background: rgb(17, 17, 18);
   padding: 20px;
   box-shadow: 
