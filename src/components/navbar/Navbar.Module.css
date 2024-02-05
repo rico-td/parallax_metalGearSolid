@@ -1,13 +1,14 @@
-.button-wrapper {
+/* .button-wrapper {
   position: relative;
-}
+} */
 
 .navbar {
   position: sticky;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 1em;
+  /* justify-content: space-around; */
+  /* align-items: center; */
   height: 60px;
-  background: transparent;
   background-color: var(--navbar);
 }

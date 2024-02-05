@@ -68,6 +68,7 @@ article h3 {
   font-family: "Black Ops One";
   color: var(--aczent);
   font-size: 20px;
+  margin: 10px;
   text-align: center;
 }
 
@@ -89,22 +90,28 @@ p {
 /* -------------- IMG FOXHOUND ------------------------- */
 
 .liquid {
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 100%;
 }
 .ocelot {
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 100%;
 }
 .sniper {
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 100%;
 }
 .octopus {
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 100%;
 }
 .raven {
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 100%;
 }
 .mantis {
-  object-fit: cover;
+  /* object-fit: cover; */
+  width: 100%;
 }
 
 .grid-container {

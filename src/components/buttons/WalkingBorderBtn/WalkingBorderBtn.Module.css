@@ -1,11 +1,11 @@
 :root {
-  --border-color: lightblue;
+  --border-color: rgb(230, 173, 173);
 }
 
 a {
   display: flex;
   color: lightblue;
-  background-color: lightblue;
+  background-color: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,7 +22,7 @@ a {
 }
 
 a span {
-  color: var(--aczent);
+  background-color: var(--aczent);
   display: block;
   transition: 0.5s;
 }
@@ -78,7 +78,6 @@ a:hover span:nth-child(4) {
   bottom: 0;
   left: 0;
 }
-
 .button-wrapper {
   position: relative;
 }

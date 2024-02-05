@@ -31,6 +31,7 @@ function App() {
           <div className="align-container">
             <div className="wrapper-logo">
               <Logo
+                className="logo"
                 title="METAL GEAR"
                 subtitle="SOLID"
                 genre="TACTICAL ESPIONAGE ACTION"
