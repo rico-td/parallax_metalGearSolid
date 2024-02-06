@@ -1,5 +1,5 @@
 import { useState } from "react";
-import WalkingBorderBtn from "../../buttons/WalkingBorderBtn/WalkingBorderBtn";
+import "../../buttons/WalkingBorderBtn/WalkingBorderBtn.Module.css";
 
 function FollowBtn() {
   const [isFollowing, setIsFollowing] = useState(false);
@@ -20,10 +20,16 @@ function FollowBtn() {
           backgroundColor: "green",
           position: "relative",
           marginTop: "20px",
+          maxWidth: "150px",
+          borderRadius: "5px",
         }}
         onClick={onClickUnfollow}
       >
         Following
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </a>
     );
   }
@@ -35,10 +41,17 @@ function FollowBtn() {
         backgroundColor: "blue",
         position: "relative",
         marginTop: "20px",
+        width: "150px",
+        maxWidth: "150px",
+        borderRadius: "5px",
       }}
       onClick={onClickFollow}
     >
       Follow
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </a>
   );
 }
