@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/my_react_app_mgs1/static/css/main.2ffcd5bc.css",
-    "main.js": "/my_react_app_mgs1/static/js/main.e52f8076.js",
+    "main.css": "/my_react_app_mgs1/static/css/main.5754a199.css",
+    "main.js": "/my_react_app_mgs1/static/js/main.15d1a640.js",
     "static/js/592.8db8c982.chunk.js": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js",
     "static/media/background.png": "/my_react_app_mgs1/static/media/background.f9863206cc7db3dc49ea.png",
+    "static/media/rex.png": "/my_react_app_mgs1/static/media/rex.2f8f790519883c160baa.png",
     "static/media/character2.png": "/my_react_app_mgs1/static/media/character2.f052dd9757514e70d0a3.png",
     "static/media/elevator.png": "/my_react_app_mgs1/static/media/elevator.a09704c7f67b1dea53f6.png",
     "static/media/raven.png": "/my_react_app_mgs1/static/media/raven.f1050b6825398f5752ef.png",
@@ -13,12 +14,12 @@
     "static/media/octopus.png": "/my_react_app_mgs1/static/media/octopus.7e6c90d7f1a82f0d9b35.png",
     "static/media/mantis.png": "/my_react_app_mgs1/static/media/mantis.598f98ad8c1c9f3f19ed.png",
     "index.html": "/my_react_app_mgs1/index.html",
-    "main.2ffcd5bc.css.map": "/my_react_app_mgs1/static/css/main.2ffcd5bc.css.map",
-    "main.e52f8076.js.map": "/my_react_app_mgs1/static/js/main.e52f8076.js.map",
+    "main.5754a199.css.map": "/my_react_app_mgs1/static/css/main.5754a199.css.map",
+    "main.15d1a640.js.map": "/my_react_app_mgs1/static/js/main.15d1a640.js.map",
     "592.8db8c982.chunk.js.map": "/my_react_app_mgs1/static/js/592.8db8c982.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ffcd5bc.css",
-    "static/js/main.e52f8076.js"
+    "static/css/main.5754a199.css",
+    "static/js/main.15d1a640.js"
   ]
 }
