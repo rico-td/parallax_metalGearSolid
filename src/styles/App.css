@@ -28,7 +28,7 @@
   height: 100vh;
   overflow-y: visible;
   overflow-x: hidden;
-  perspective: 10px;
+  perspective: 15px;
 }
 
 header {
@@ -42,20 +42,20 @@ header {
 }
 
 .elevator-bg {
-  transform: translateZ(-10px) scale(2);
+  transform: translateZ(-15px) scale(2);
 }
 
-.elevator {
-  transform: translateZ(-5px) scale(1.5);
-}
+/* .elevator {
+  transform: translateZ(0px) scale(1);
+} */
 
-.character {
-  transform: translateZ(-4px) scale(1.5);
-}
+/* .character {
+  transform: translateZ(0x) scale(1);
+} */
 
 /* -------------- PARALLAX 1 TEXT ------------------------- */
 article {
-  background: rgb(17, 17, 18);
+  background: rgb(0, 0, 0);
   padding: 20px;
   box-shadow: 
   /* 0 10px 50px var(--glowColor),  */ 0 0 20px var(--dark),

@@ -13,6 +13,7 @@ import ocelot from "./assets/img/foxhound gang/ocelot.png";
 import octopus from "./assets/img/foxhound gang/octopus.png";
 import raven from "./assets/img/foxhound gang/raven.png";
 import sniper from "./assets/img/foxhound gang/sniper.png";
+import rex from "./assets/img/rex.png";
 
 // ------------ COMPONENTS ---------------------------------
 import Logo from "./components/logo/Logo.js";
@@ -55,6 +56,8 @@ function App() {
             className="navbar-social-media"
           />
           <Profile className="follow-Btn" />
+
+          <img className="rex" src={rex} alt="rex" />
           {/* <Content data={DatabaseResponse} /> */}
           <div className="grid-container">
             <img className="liquid" src={liquid} alt="elevator" />
